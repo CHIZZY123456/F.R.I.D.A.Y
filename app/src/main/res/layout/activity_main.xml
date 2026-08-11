@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="@drawable/friday_background">
+
+    <TextView
+        android:id="@+id/fridayTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="F.R.I.D.A.Y."
+        android:textColor="@color/friday_blue"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/fridayStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Ready"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+</LinearLayout>
